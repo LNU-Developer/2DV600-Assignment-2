@@ -4,8 +4,8 @@ import Interfaces.IQueue;
 import java.util.Iterator;
 
 public class Queue<E> implements IQueue<E> {
-    private Node<E> head = null;
-    private Node<E> tail = null;
+    private Node<E> head = null; // Head points to the start of the queue
+    private Node<E> tail = null; // Tail points to the end of the queque
     private int size = 0;
 
     public int size() {
@@ -17,7 +17,8 @@ public class Queue<E> implements IQueue<E> {
     }
 
     public void enqueue(E element) {
-        if (head == null) {
+        if (head == null) { // If the queueu is empty it would create a new node as head and since thats the
+                            // only item it would reference that to the tail as well
             head = new Node<E>(element);
             tail = head;
         } else {
@@ -59,14 +60,14 @@ public class Queue<E> implements IQueue<E> {
 
             public boolean hasNext() throws IndexOutOfBoundsException {
                 if (isEmpty()) {
-                    throw new IndexOutOfBoundsException("Can not iterate when empty queue.");
+                    throw new IndexOutOfBoundsException("Cannot iterate when empty queue.");
                 }
                 return current.next() != null;
             }
 
             public E next() throws IndexOutOfBoundsException {
                 if (isEmpty())
-                    throw new IndexOutOfBoundsException("Can not iterate when empty queue.");
+                    throw new IndexOutOfBoundsException("Cannot iterate when empty queue.");
                 current = current.next();
                 return current.get();
             }
