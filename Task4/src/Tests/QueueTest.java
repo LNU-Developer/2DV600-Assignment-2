@@ -1,3 +1,10 @@
+/*
+* Date: 2021-09-24.
+* File Name: QueueTest.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package Tests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,6 +18,12 @@ import Queue.Queue;
 
 import org.junit.Test;
 
+/**
+ * Class Description: A class to test the implementation of the Queue class
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class QueueTest {
 
     @Test

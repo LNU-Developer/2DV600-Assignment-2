@@ -1,5 +1,18 @@
+/*
+* Date: 2021-09-24.
+* File Name: App.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 import Queue.Queue;
 
+/**
+ * Class Description: The main class to run the program
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Testing queue");

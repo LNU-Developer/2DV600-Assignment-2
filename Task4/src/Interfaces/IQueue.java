@@ -1,5 +1,18 @@
+/*
+* Date: 2021-09-24.
+* File Name: IQueue.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package Interfaces;
 
+/**
+ * Interface Description: An interface to set the rules for the queue class
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public interface IQueue<E> extends Iterable<E> {
     int size(); // current queue size
 

@@ -1,8 +1,21 @@
+/*
+* Date: 2021-09-24.
+* File Name: Queue.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package Queue;
 
 import Interfaces.IQueue;
 import java.util.Iterator;
 
+/**
+ * Class Description: A class to handle queues by implementing tail nodes
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class Queue<E> implements IQueue<E> {
     private Node<E> head = null; // Head points to the start of the queue
     private Node<E> tail = null; // Tail points to the end of the queque
