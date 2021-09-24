@@ -1,3 +1,11 @@
+
+/*
+* Date: 2021-09-24.
+* File Name: WordCount1Main.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package SubTask3;
 
 import java.io.File;
@@ -5,6 +13,14 @@ import java.util.*;
 
 import SubTask2.Word;
 
+/**
+ * Class Description: This is a class to read a file containing words count
+ * different words as well as print out unique words and words in alphabetical
+ * order
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class WordCount1Main {
 
     HashSet<Word> hashSet = new HashSet<>();

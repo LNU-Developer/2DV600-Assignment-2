@@ -1,7 +1,20 @@
+
+/*
+* Date: 2021-09-24.
+* File Name: App.Java
+* Author: Rickard Marjanovic
+*
+*/
 import SubTask1.IdentifyWordsMain;
 import SubTask2.Word;
 import SubTask3.WordCount1Main;
 
+/**
+ * Class Description: The main class to run the program
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class App {
     public static void main(String[] args) {
         runTask1();

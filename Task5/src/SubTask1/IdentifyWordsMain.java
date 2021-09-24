@@ -1,7 +1,22 @@
+/*
+* Date: 2021-09-24.
+* File Name: IdentifyWordsMain.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package SubTask1;
 
 import java.io.*;
 import java.util.Scanner;
+
+/**
+ * Class Description: This is a class to read a txt file, run a set of cleaning
+ * operations and export to a new txt file
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 
 public class IdentifyWordsMain {
     Scanner scanner;
