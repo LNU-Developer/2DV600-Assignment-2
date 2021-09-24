@@ -1,6 +1,19 @@
+/*
+* Date: 2021-09-24.
+* File Name: CollectionMain.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 import Solution.ArrayIntList;
 import Solution.ArrayIntStack;
 
+/**
+ * Class Description: The main class to run the program
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class CollectionMain {
     public static void main(String[] args) {
         try {
