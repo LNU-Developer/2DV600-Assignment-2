@@ -1,3 +1,11 @@
+
+/*
+* Date: 2021-09-24.
+* File Name: Rogue.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package ClassTypes;
 
 import java.util.List;
@@ -5,6 +13,12 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import Properties.*;
 
+/**
+ * Class Description: A class to create/handle the rogue class
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class Rogue extends Character {
     List<Ability> abilities = new ArrayList<Ability>();
     List<String> allowedProficiencies = Arrays.asList("acrobatics", "stealth");

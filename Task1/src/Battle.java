@@ -1,7 +1,20 @@
 
+/*
+* Date: 2021-09-24.
+* File Name: Battle.Java
+* Author: Rickard Marjanovic
+*
+*/
 import ClassTypes.*;
 import ClassTypes.Character;
 
+/**
+ * Class Description: A class to calculate the wincondition of certain
+ * party/individual battles
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class Battle {
     public static void printStatistics(Character party[]) {
         System.out.println("The average level of the party is: " + calculateAverageLevelOfParty(party));

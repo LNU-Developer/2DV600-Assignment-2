@@ -1,5 +1,19 @@
+
+/*
+* Date: 2021-09-24.
+* File Name: Attribute.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package Properties;
 
+/**
+ * Class Description: A class to create/handle attributes
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class Attributes {
     int strength;
     int agility;

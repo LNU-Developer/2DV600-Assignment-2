@@ -1,8 +1,23 @@
+
+/*
+* Date: 2021-09-24.
+* File Name: Character.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package ClassTypes;
 
 import Properties.*;
 import java.util.List;
 
+/**
+ * Class Description: An abstract class to help with the creattion/handling of
+ * all classes
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public abstract class Character {
     public String name;
     String className;
