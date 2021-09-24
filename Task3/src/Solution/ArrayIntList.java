@@ -1,3 +1,10 @@
+/*
+* Date: 2021-09-24.
+* File Name: App.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package Solution;
 
 import java.util.Iterator;
@@ -5,6 +12,12 @@ import java.util.Iterator;
 import two_dv600.AbstractIntCollection;
 import two_dv600.IntList;
 
+/**
+ * Class Description: A class to create/handle an int list
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class ArrayIntList extends AbstractIntCollection implements IntList {
     /* Add integer n to the end of the list. */
     public void add(int n) {

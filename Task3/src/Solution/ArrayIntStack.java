@@ -1,8 +1,21 @@
+/*
+* Date: 2021-09-24.
+* File Name: App.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package Solution;
 
 import two_dv600.AbstractIntCollection;
 import two_dv600.IntStack;
 
+/**
+ * Class Description: A class to create/handle an int stack
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class ArrayIntStack extends AbstractIntCollection implements IntStack {
     /* Add integer at top of stack. */
     public void push(int n) {

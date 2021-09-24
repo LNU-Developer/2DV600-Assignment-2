@@ -1,3 +1,10 @@
+/*
+* Date: 2021-09-24.
+* File Name: App.Java
+* Author: Rickard Marjanovic
+*
+*/
+
 package Tests;
 
 import Solution.ArrayIntList;
@@ -8,6 +15,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.Test;
 
+/**
+ * Class Description: A class to test the create/handle of an int list
+ *
+ * @version 1, 2021-09-24
+ * @author Rickard Marjanovic
+ */
 public class ArrayIntListTest {
     @Test
     @DisplayName("Testing happycase for add")
